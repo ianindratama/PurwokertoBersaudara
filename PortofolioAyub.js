@@ -17,12 +17,12 @@ export const AyubPortofolioScreen = () => {
             </View>
 
             <View style={{
-                flex: 9.5,
-                backgroundColor: "rgba(132, 181, 255, 0.76)",
-                borderTopLeftRadius: 40,
+                flex: 9.5, 
+                backgroundColor: "rgba(132, 181, 255, 0.76)", 
+                borderTopLeftRadius: 40, 
                 borderTopRightRadius: 40,
             }}>
-
+                
                 <View style={{
                     flex: 1,
                     marginTop: 50,
@@ -35,7 +35,7 @@ export const AyubPortofolioScreen = () => {
                         backgroundColor: "#fff",
                         elevation: 10,
                         borderWidth: 1,
-                        borderColor: "4F4F4F",
+                        borderColor: "#4F4F4F",
                         borderRadius: 10,
                         marginBottom: 30,
                     }}>

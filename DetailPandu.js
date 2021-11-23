@@ -52,7 +52,7 @@ export const PanduScreen = ( {navigation} ) => {
                         <View style={{flex: 7, backgroundColor: "#FDE3E3", borderRadius: 10, marginTop: -75, marginLeft: 5, marginRight: 5, marginBottom: 20}}>
                             <View style={{flex: 4, justifyContent: "center", alignItems: "center"}}>
                                 <Text style={{width: "80%", fontFamily: "Rubik", color: "black", textAlign: "center", fontSize: 24, borderBottomWidth: 3, borderBottomColor: "black", paddingBottom: 10, marginTop: -10}}>
-                                    About me
+                                    About Me
                                 </Text>
                             </View>
                             <View style={{flex: 8, justifyContent: "center", alignItems: "center"}}>

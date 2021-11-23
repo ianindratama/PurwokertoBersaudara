@@ -62,7 +62,9 @@ export const PanduPortofolioScreen = () => {
                         borderRadius: 10,
                         marginBottom: 30,      
                     }}>
+
                         <View style={{flex: 1, padding: 10, paddingLeft: 20}}>
+                            
                             <Text style={{fontFamily: "Rubik", color: "black", fontSize: 26, marginBottom: 10}}>
                                 Organizational Experience
                             </Text>
@@ -73,6 +75,7 @@ export const PanduPortofolioScreen = () => {
                             </Text>
 
                         </View>
+
                     </View>
 
                     <View style={{

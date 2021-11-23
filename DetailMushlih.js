@@ -56,7 +56,7 @@ export const MushlihScreen = ( {navigation} ) => {
                                 </Text>
                             </View>
                             <View style={{flex: 8, justifyContent: "center", alignItems: "center"}}>
-                                <Text style={{width: "80%", fontFamily: "Rubik", color: "black", textAlign: "center", fontSize: 20, paddingBottom: 10}}>
+                                <Text style={{width: "80%", fontFamily: "Rubik", color: "black", textAlign: "center", fontSize: 20, paddingBottom: 50}}>
                                     Saya adalah seorang kapiten yang mempunyai pendang panjang, kalo berjalan prok prok prok
                                 </Text>
                             </View>

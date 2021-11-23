@@ -12,7 +12,7 @@ export const AyubScreen = ( {navigation} ) => {
                 <View style={{flex: 1, marginTop: 20, marginBottom: 20, marginLeft: 10, marginRight: 10}}>
                     
                     <View style={{flex: 2.5, marginTop: 20, marginBottom: 20, alignItems: "center"}}>
-                        <Image source={require("./images/ayubcircle.png")} style={{height: "100%", resizeMode:"contain"}}/>
+                        <Image source={require("./images/ayubcircle.png")} style={{height: "100%", resizeMode: "contain"}}/>
                     </View>
 
                     <View style={{flex: 1.5, alignItems: "center"}}>
@@ -29,19 +29,19 @@ export const AyubScreen = ( {navigation} ) => {
                             <View style={{flex: 6.5, flexDirection: "row", justifyContent: "space-around", alignItems: "center"}}>
 
                                 <TouchableOpacity activeOpacity={1} onPress={() => Linking.openURL("https://www.instagram.com/ayubambrta/")} style={{marginLeft: 20}}>
-                                    <Image source={require("./images/instagram.png")} style={{height: "100%", resizeMode: "contain"}} />
+                                    <Image source={require("./images/instagram.png")} style={{height: "100%", resizeMode: "contain"}}/>
                                 </TouchableOpacity>
 
                                 <TouchableOpacity activeOpacity={1} onPress={() => Linking.openURL("https://www.facebook.com/ayub.ambarita.7")} style={{marginLeft: 20}}>
-                                    <Image source={require("./images/facebook.png")} style={{height: "100%", resizeMode: "contain"}} />
+                                    <Image source={require("./images/facebook.png")} style={{height: "100%", resizeMode: "contain"}}/>
                                 </TouchableOpacity>
 
                                 <TouchableOpacity activeOpacity={1} onPress={() => Linking.openURL("https://www.twitter.com/")} style={{marginLeft: 20}}>
-                                    <Image source={require("./images/twitter.png")} style={{height: "100%", resizeMode: "contain"}} />
+                                    <Image source={require("./images/twitter.png")} style={{height: "100%", resizeMode: "contain"}}/>
                                 </TouchableOpacity>
 
                                 <TouchableOpacity activeOpacity={1} onPress={() => Linking.openURL("https://www.github.com/")} style={{marginLeft: 20}}>
-                                    <Image source={require("./images/github.png")} style={{height: "100%", resizeMode: "contain"}} />
+                                    <Image source={require("./images/github.png")} style={{height: "100%", resizeMode: "contain"}}/>
                                 </TouchableOpacity>
 
                             </View>
@@ -50,15 +50,15 @@ export const AyubScreen = ( {navigation} ) => {
                         
                         </View>
 
-                        <View style={{flex: 7, backgroundColor: "#FDE3E3", borderRadius: 10, marginTop: -75, marginBottom: 20, marginLeft: 5, marginRight: 5}}>
+                        <View style={{flex: 7, backgroundColor: "#FDE3E3", borderRadius: 10, marginTop: -75, marginLeft: 5, marginRight: 5, marginBottom: 20}}>
                             <View style={{flex: 4, justifyContent: "center", alignItems: "center"}}>
-                                <Text style={{width: "80%", fontFamily: "Rubik", fontSize: 24, color: "black", textAlign: "center", borderBottomWidth: 3, borderBottomColor: "black", paddingBottom: 10, marginTop: -10}}>
+                                <Text style={{width: "80%", fontFamily: "Rubik", color: "black", textAlign: "center", fontSize: 24, borderBottomWidth: 3, borderBottomColor: "black", paddingBottom: 10, marginTop: -10}}>
                                     About Me
                                 </Text>
                             </View>
                             <View style={{flex: 8, justifyContent: "center", alignItems: "center"}}>
-                                <Text style={{width: "80%", fontFamily: "Rubik", fontSize: 24, color: "black", textAlign: "center", paddingBottom: 10}}>
-                                    Nenekk moyangku seorang pelaut, gemar mengarungi luas samudera
+                                <Text style={{width: "80%", fontFamily: "Rubik", color: "black", textAlign: "center", fontSize: 20, paddingBottom: 50}}>
+                                    Nenek moyangku seorang pelaut, gemar mengarungi luas samudera
                                 </Text>
                             </View>
                         </View>
@@ -67,7 +67,7 @@ export const AyubScreen = ( {navigation} ) => {
                     
                     <View style={{flex: 1.5, justifyContent: "center", alignItems: "center"}}>
                         <TouchableOpacity activeOpacity={1} onPress={() => navigation.navigate('AyubPortofolio')} style={{width: "80%", height: "60%", backgroundColor: "rgba(94, 211, 248, 0.7)", borderRadius: 50}}>
-                            <Text style={{width: "100%", height: "100%", fontFamily: "Rubik", fontSize: 24, color: "black", textAlign: "center", textAlignVertical: "center"}}>
+                            <Text style={{width: "100%", height: "100%", fontFamily: "Rubik", color: "black", textAlign: "center", fontSize: 24, textAlignVertical: "center"}}>
                                 Portofolio
                             </Text>
                         </TouchableOpacity>
